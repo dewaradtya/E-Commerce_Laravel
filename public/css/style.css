@@ -1,0 +1,28 @@
+body {
+    /* ... */
+    border-bottom: 1px solid #ddd; /* Warna garis pembatas */
+    margin-bottom: 50px; /* Atur tinggi garis pembatas sesuai kebutuhan */
+}
+
+footer {
+    /* ... */
+    border-top: 1px solid #ddd; /* Warna garis pembatas */
+    margin-top: 50px; /* Atur tinggi garis pembatas sesuai kebutuhan */
+}
+
+.footer-links {
+    flex-wrap: wrap;
+}
+
+.footer-links > div {
+    margin-bottom: 20px; /* Atur spasi antar kolom */
+}
+
+.container > button ::hover{
+    background: #000;
+    color: #fff;
+}
+
+#promoBanner {
+    transition: opacity 0.5s ease-in-out;
+}
